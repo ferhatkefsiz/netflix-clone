@@ -11,9 +11,9 @@ function App() {
       <Navbar />
       <Banner />
       <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}  isLargeRow/>
-      <Row title="Netflix Trendings" fetchUrl={requests.fetchTrending} />
-      <Row title="Netflix Top Rated " fetchUrl={requests.fetchTopRated} />
-      <Row title="Netflix Popular " fetchUrl={requests.fetchPopular} />
+      <Row title="Netflix Trendings" fetchUrl={requests.fetchTrending} isLargeRow/>
+      <Row title="Netflix Top Rated " fetchUrl={requests.fetchTopRated} isLargeRow/>
+      <Row title="Netflix Popular " fetchUrl={requests.fetchPopular} isLargeRow/>
       <Row title="Horrow Movies " fetchUrl={requests.fetchHorrorMovies} />
 
     </div>

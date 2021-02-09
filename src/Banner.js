@@ -12,7 +12,6 @@ function Banner() {
       setMovie(
         request.data.results[4]
       );
-      console.log(request.data.results);
       return request;
     }
     fetchData();
@@ -34,7 +33,6 @@ function Banner() {
         <h1 className="banner__description">
           {movie.overview}
           <br />
-          <small>  {movie.vote_average} </small>  
         </h1>
 
       </div>
