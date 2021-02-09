@@ -1,5 +1,6 @@
 # Preview
-![](https://netflix-clone-e9fca.web.app/public/screen.png)
+![image info](./public/screen.PNG)
+
 
 <p align="center">
   <img src="https://miro.medium.com/max/3176/1*h-xRzZOCHk8jTlEa8M42GA.png" height="60">
